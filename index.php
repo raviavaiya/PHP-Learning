@@ -29,5 +29,9 @@ mulitple comment */
     <a href="get&post.php">Get & Post Method</a><br><br>
     <a href="math-functions.php">Math Functions</a><br><br>
     <a href="if&else.php">If & Else Statement</a><br><br>
+    <a href="logical_Operater.php">Logical operaters</a><br><br>
+    <a href="switch_case.php">Switch Case</a><br><br>
+    <a href="for_looop.php">For Loop</a><br><br>
+    <a href="while_loop.php">While Loop</a><br><br>
 </body>
 </html>
