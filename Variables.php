@@ -6,7 +6,7 @@
 
 $name = "Ravi Avaiya";
 $food = "Apple";
-$email = "ravvi@gmail.com";
+$email = "ravi@gmail.com";
 
 
 $age = 21;

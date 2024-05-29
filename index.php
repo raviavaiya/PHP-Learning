@@ -33,5 +33,7 @@ mulitple comment */
     <a href="switch_case.php">Switch Case</a><br><br>
     <a href="for_looop.php">For Loop</a><br><br>
     <a href="while_loop.php">While Loop</a><br><br>
+    <a href="array.php">Array</a><br><br>
+    <a href="associative_array.php">Associative Array</a><br><br>
 </body>
 </html>
