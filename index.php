@@ -35,5 +35,11 @@ mulitple comment */
     <a href="while_loop.php">While Loop</a><br><br>
     <a href="array.php">Array</a><br><br>
     <a href="associative_array.php">Associative Array</a><br><br>
+    <a href="radio_button.php">Radio Buttons</a><br><br>
+    <a href="check_boxes.php">Check Boxes</a><br><br>
+    <a href="functions.php">Functions</a><br><br>
+    <a href="String_Function.php">String Functions</a><br><br>
+    <a href="validate_sanitile.php">Validate() & sanitize()</a><br><br>
+
 </body>
 </html>

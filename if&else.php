@@ -1,4 +1,4 @@
-<a href="index.php">Home</a><br>
+
 
     <!-- if & Else Statements -->
 <?php
