@@ -1,5 +1,6 @@
 <?php
-
+include("header.php");
+include("database.php");
 //  Print Statement
 echo "i love web Development.";
 echo "<br>";
@@ -40,6 +41,17 @@ mulitple comment */
     <a href="functions.php">Functions</a><br><br>
     <a href="String_Function.php">String Functions</a><br><br>
     <a href="validate_sanitile.php">Validate() & sanitize()</a><br><br>
+    <a href="cookies.php">Cookies</a><br><br>
+    <a href="session.php">Session</a><br><br>
+    <a href="SERVER.php">$_SERVER</a><br><br>
+    <a href="hashing_password.php">Password hashing</a><br><br>
+    <a href="database.php">MySqli database</a><br><br>
+    <a href="insert.php">Insert into Database</a><br><br>
+    <a href="select.php">Select into Database</a><br><br>
+
 
 </body>
 </html>
+<?php
+include("footer.html");
+?>
