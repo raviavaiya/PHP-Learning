@@ -1,3 +1,6 @@
+<?php
+include("database.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +11,47 @@
 </head>
 
 <body>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Image</th>
+                <th>name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Dob</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <?php
+            $Select = $con->query("select * from users");
+            while ($fetch = $Select->fetch_array()) {
+
+
+            ?>
+
+                <tr>
+                    <td><?php echo $fetch['id'];  ?></td>
+                    <td><?php echo $fetch['username']; ?></td>
+                    <td><?php echo $fetch['email']; ?></td>
+                    <td><?php echo $fetch['gender']; ?></td>
+                    <td><?php echo $fetch['dob']; ?></td>
+                    <td><img src="<?php echo $fetch['profile_picture']; ?>" width="80x" alt="Profile"></td>
+
+                </tr>
+
+            <?php
+            }
+
+            ?>
+
+
+        </tbody>
+    </table>
+
     <form action="register.php" method="post" enctype="multipart/form-data">
         <label for="username">Username:</label>
         <input type="text" name="username" id="username" required><br><br>
@@ -39,7 +83,7 @@
 
 
 <?php
-include("database.php");
+
 
 if (isset($_POST['register'])) {
     // Get form inputs
